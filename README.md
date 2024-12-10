@@ -1,2 +1,2 @@
-# 2025-AAAI-DGC
+# 2025-AAAI-DCG
 Incomplete Multi-view Clustering via Diffusion Contrastive Generation
