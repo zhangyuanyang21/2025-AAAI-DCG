@@ -34,7 +34,7 @@ The Synthetic3D, CUB, HandWritten, LandUse-21, and Fashion datasets are placed i
 - an example for train a new model：
 
 ```bash
-python main.py
+python run.py
 ```
 
 ## 5.Experiment Results
