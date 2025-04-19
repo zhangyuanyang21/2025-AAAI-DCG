@@ -9,10 +9,6 @@ import matplotlib.pyplot as plt
 import scipy.io
 import os
 import datetime
-import seaborn as sns
-from sklearn.manifold import TSNE
-# import matplotlib.pyplot as plt
-from sklearn.metrics.pairwise import cosine_similarity
 class icdm():
 
     def __init__(self, config):
