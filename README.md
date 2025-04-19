@@ -28,8 +28,6 @@ The Synthetic3D, CUB, HandWritten, LandUse-21, and Fashion datasets are placed i
 
 ## 4.Usage
 
-- an example for train model：
-
 ```bash
 python run.py
 ```
