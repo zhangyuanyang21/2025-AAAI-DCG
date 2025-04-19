@@ -27,41 +27,14 @@ scikit-learn>=1.0.2
 
 ## 3.Datasets
 
-The Synthetic3d, Prokaryotic, and MNIST-USPS datasets are placed in "data" folder. The others dataset could be downloaded from [cloud](https://pan.baidu.com/s/1XNWW8UqTcPMkw9NpiKqvOQ). key: data
+The Synthetic3D, CUB, HandWritten, LandUse-21, and Fashion datasets are placed in "data" folder. The others dataset could be downloaded from [cloud](). 
 
 ## 4.Usage
-
-- Before run, please carefully read  ''Obtain-S.docx'', and refer to the steps inside it to modify the code in order to obtain S.
 
 - an example for train a new model：
 
 ```bash
-python train.py
-```
-- an example  for test the trained model:
-  
-```bash
-python test.py
-```
-
-- You can get the following output:
-
-```bash
-Epoch 290 Loss:15.420288
-Epoch 291 Loss:15.431067
-Epoch 292 Loss:15.417261
-Epoch 293 Loss:15.436375
-Epoch 294 Loss:15.398655
-Epoch 295 Loss:15.406467
-Epoch 296 Loss:15.413018
-Epoch 297 Loss:15.419146
-Epoch 298 Loss:15.419894
-Epoch 299 Loss:15.389602
-Epoch 300 Loss:15.377309
----------train over---------
-Clustering results:
-ACC = 0.9700 NMI = 0.8713 PUR=0.9700 ARI = 0.9126
-Saving model...
+python main.py
 ```
 
 ## 5.Experiment Results
@@ -70,7 +43,7 @@ Saving model...
 
 ## 6.Acknowledgments
 
-Work&Code is inspired by [MFLVC](https://github.com/SubmissionsIn/MFLVC) ... 
+Work&Code is inspired by [Completer](https://github.com/XLearning-SCU/2021-CVPR-Completer) ... 
 
 ## 7.Citation
 
@@ -88,4 +61,4 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
-If you have any problems, contact me via zhangyuanyang@seu.edu.cn.
+If you have any problems, contact me via zhangyuanyang@seu.edu.cn
