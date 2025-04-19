@@ -1,5 +1,4 @@
 # 2025-AAAI-DCG
-Incomplete Multi-view Clustering via Diffusion Contrastive Generation
 
 ## Incomplete Multi-view Clustering via Diffusion Contrastive Generation
 > **Authors:**
@@ -43,7 +42,7 @@ python run.py
 
 ## 6.Acknowledgments
 
-Work&Code is inspired by [Completer](https://github.com/XLearning-SCU/2021-CVPR-Completer) ... 
+Work&Code is inspired by [Completer](https://github.com/XLearning-SCU/2021-CVPR-Completer)
 
 ## 7.Citation
 
