@@ -1,5 +1,3 @@
-# 2025-AAAI-DCG
-
 ## Incomplete Multi-view Clustering via Diffusion Contrastive Generation
 > **Authors:**
 Yuanyang Zhang#, Yijie Lin#, Weiqing Yan, Li Yao†, Xinhang Wan, Guangyuan Li, Chao Zhang, Guanzhou Ke, Jie Xu
