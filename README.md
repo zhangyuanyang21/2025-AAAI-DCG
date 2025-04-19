@@ -27,11 +27,11 @@ scikit-learn>=1.0.2
 
 ## 3.Datasets
 
-The Synthetic3D, CUB, HandWritten, LandUse-21, and Fashion datasets are placed in "data" folder. The others dataset could be downloaded from [cloud](). 
+The Synthetic3D, CUB, HandWritten, LandUse-21, and Fashion datasets are placed in "data" folder.
 
 ## 4.Usage
 
-- an example for train a new model：
+- an example for train model：
 
 ```bash
 python run.py
