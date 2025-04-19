@@ -10,7 +10,7 @@ This repo contains the code and data of our AAAI'2025 paper [Incomplete Multi-vi
 
 ## 1. Framework
 
-<img src="https://github.com/Galaxy922/GCFAggMVC/blob/main/figs/Framework.png"  width="897" height="317" />
+<img src="https://github.com/zhangyuanyang21/2025-AAAI-DCG/blob/main/figs/framework.png"  width="897" height="317" />
 
 The overall framework. Without loss of generality, we take bi-view data as a showcase to demonstrate the overall framework of our proposed
 DCG. As shown, our method is mainly divided into four modules: (1) View-specifc Feature Learning; (2) Diffusion Contrastive
@@ -66,8 +66,7 @@ Saving model...
 
 ## 5.Experiment Results
 
-<img src="https://github.com/Galaxy922/GCFAggMVC/blob/main/figs/Table1.png"  width="897"  />
-<img src="https://github.com/Galaxy922/GCFAggMVC/blob/main/figs/Table2.png"  width="897"  />
+<img src="https://github.com/zhangyuanyang21/2025-AAAI-DCG/blob/main/figs/table1.png"  width="897"  />
 
 ## 6.Acknowledgments
 
