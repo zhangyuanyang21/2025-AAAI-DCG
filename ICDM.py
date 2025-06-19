@@ -38,6 +38,7 @@ class icdm():
     def train(self, config, x1_train, x2_train, Y_list, mask, optimizer, device):
 
         criterion_cluster = ClusterLoss(config['training']['n_clusters'], 0.5, device).to(device)
+        
         flag_1 = (torch.LongTensor([1, 1]).to(device) == mask).int()
         Tmp_acc, Tmp_nmi, Tmp_ari = 0, 0, 0
         accs = []
@@ -60,6 +61,7 @@ class icdm():
                 recon1 = F.mse_loss(self.autoencoder1.decoder(z_view1_both), batch_x1[index_both])
                 recon2 = F.mse_loss(self.autoencoder2.decoder(z_view2_both), batch_x2[index_both])
                 rec_loss = (recon1 + recon2)
+                criterion_instance = CLoss(z_view1_both.shape[0], 1.0, device).to(device)
                 h_both = self.AttentionLayer(z_view1_both, z_view2_both)
                 mmi_loss = MMI(h_both, z_view1_both) + MMI(h_both, z_view2_both)
                 y1, p1 = self.clusterLayer(z_view1_both)
