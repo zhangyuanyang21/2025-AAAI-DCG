@@ -43,7 +43,6 @@ def MMI(view1, view2, lamb=10.0, EPS=sys.float_info.epsilon):
 
 
 class ClusterLoss(nn.Module):
-    """类簇级别的对比损失"""
     def __init__(self, class_num, temperature, device):
         super(ClusterLoss, self).__init__()
         self.class_num = class_num
@@ -91,7 +90,7 @@ class ClusterLoss(nn.Module):
         loss /= N
 
         return loss + alpha * ne_loss
-class InstanceLoss(nn.Module):
+class CLoss(nn.Module):
     def __init__(self, batch_size, temperature, device):
         super(InstanceLoss, self).__init__()
         self.batch_size = batch_size
