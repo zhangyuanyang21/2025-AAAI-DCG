@@ -34,6 +34,41 @@ def get_default_config(data_name):
                 beta_schedule="linear",
             ),
         )
+    elif data_name in ['LandUse_21']:
+    """The default configs."""
+    return dict(
+        diffusion=dict(
+            emb_size=128,
+            time_type="sinusoidal",
+            out_dim1=128,
+            out_dim2=128,
+        ),
+        noise_scheduler=dict(
+            num_timesteps=100,
+            beta_schedule="linear",
+        ),
+        Autoencoder=dict(
+            arch1=[59, 1024, 1024, 1024, 128],
+            arch2=[40, 1024, 1024, 1024, 128],
+            activations1='relu',
+            activations2='relu',
+            batchnorm=True,
+        ),
+        training=dict(
+            missing_rate=0.5,
+            seed=3,
+            mask_seed=5,
+            epoch=200,
+            batch_size=256,
+            lr=1.0e-4,
+            alpha=9,
+            lambda1=0.1,
+            lambda2=0.1,
+            temperature_f=0.5,
+            temperature_l=1,
+            n_clusters=21,
+        ),
+    )
     
     else:
         raise Exception('Undefined data_name')
