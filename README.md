@@ -25,6 +25,7 @@ scikit-learn>=1.0.2
 ## 3.Datasets
 
 The Synthetic3D, CUB, HandWritten, LandUse-21, and Fashion datasets are placed in "data" folder.
+The datasets could be downloaded from [Google cloud] (https://drive.google.com/drive/folders/1ycXqIVJt_wt1cAgLTWgzTOqiSIS-Eyzn?usp=drive_link)
 
 ## 4.Usage
 
