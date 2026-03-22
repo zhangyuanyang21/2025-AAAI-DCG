@@ -62,7 +62,7 @@ if __name__ == '__main__':
                }
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=int, default=str(2), help='dataset id')  # data index
+    parser.add_argument('--dataset', type=int, default=str(5), help='dataset id')  # data index
     parser.add_argument('--test_time', type=int, default=str(1), help='number of test times')
     parser.add_argument('--devices', type=str, default='0', help='gpu device ids')
     args = parser.parse_args()
